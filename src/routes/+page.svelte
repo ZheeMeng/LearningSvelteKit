@@ -32,8 +32,6 @@
 			</div>
 			<div class="cards">
 				<!-- add in href -->
-
-				<!-- !!!card & text alignment to be completed!!! -->
 				<div class="sub-cards">
 					<div class="placeholder"></div>
 					<a href="/">Schedule</a>
@@ -46,6 +44,11 @@
 					<div class="placeholder"></div>
 					<a href="/">Analytics</a>
 				</div>
+			</div>
+			<div class="btm-cards">
+				<!-- left=image right=placeholder -->
+				<div></div>
+				<div></div>
 			</div>
 		</div>
 
@@ -159,6 +162,10 @@
 		margin: 10px;
 	}
 
+	.middle-content #searchBar input {
+		width: 100%;
+	}
+
 	.middle-content .cards {
 		display: flex;
 		align-items: center;
@@ -168,13 +175,16 @@
 
 	.middle-content .cards .sub-cards {
 		text-align: center;
+		flex-direction: column;
 	}
 
 	.middle-content .cards .sub-cards .placeholder {
-		width: 30%;
+		width: 150px;
 		height: 400px;
-		background-color: gray;
+		background-color: pink;
 		margin: 3%;
+		box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  		border-radius: 15px; 
 	}
 
 	.middle-content a {
@@ -189,6 +199,8 @@
 
 	.right-content {
 		width: 25%;
+		height: 100%;
+		box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 		float: right;
 	}
 
