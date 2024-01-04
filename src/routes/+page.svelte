@@ -45,10 +45,12 @@
 					<a href="/">Analytics</a>
 				</div>
 			</div>
-			<div class="btm-cards">
+			<div class="btm-sec">
 				<!-- left=image right=placeholder -->
-				<div></div>
-				<div></div>
+				<div>
+					<img class="placeholder-img" src="/src/lib/img/placeholder.jpg" alt="placeholder">
+				</div>
+				<div class="review-card"></div>
 			</div>
 		</div>
 
@@ -185,6 +187,19 @@
 		margin: 3%;
 		box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   		border-radius: 15px; 
+	}
+
+	.middle-content .btm-sec .placeholder-img {
+		transform: scale(50%);
+		border: 5px solid black;
+	}
+
+	.middle-content .btm-sec .review-card {
+		width: 250px;
+		height: 250px;
+		background-color: pink;
+		box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  		border-radius: 15px;
 	}
 
 	.middle-content a {
