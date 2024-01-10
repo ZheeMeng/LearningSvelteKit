@@ -4,6 +4,9 @@
 	}
 </script>
 
+<!-- stylesheet for star ratings -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 <body>
 	<div class="content">
 		<div class="sideNav">
@@ -50,7 +53,43 @@
 				<div>
 					<img class="placeholder-img" src="/src/lib/img/placeholder.jpg" alt="placeholder">
 				</div>
-				<div class="review-card"></div>
+				<div class="review-card">
+					<p>Overall Review</p>
+					<div class="rating">
+						<div class="star-rating">
+							<span class="fa fa-star"></span>
+							<span class="fa fa-star"></span>
+							<span class="fa fa-star"></span>
+							<span class="fa fa-star"></span>
+							<span class="fa fa-star"></span>
+						</div>
+						<div class="meter-rating">
+							<div>
+								<p>5</p>
+								<div class="meter"></div>
+							</div>
+							<div>
+								<p>4</p>
+								<div class="meter"></div>
+							</div>
+							<div>
+								<p>3</p>
+								<div class="meter"></div>
+							</div>
+							<div>
+								<p>2</p>
+								<div class="meter"></div>
+							</div>
+							<div>
+								<p>1</p>
+								<div class="meter"></div>
+							</div>
+						</div>
+					</div>
+					<div class="top-reviews">
+						
+					</div>
+				</div>
 			</div>
 		</div>
 
@@ -164,6 +203,16 @@
 		margin: 10px;
 	}
 
+	.middle-content a {
+		text-decoration: none;
+		display: block;
+		transition: 0.2s;
+		color: gray;
+		border-radius: 12px;
+		margin: 5px;
+		padding: 10px;
+	}
+
 	.middle-content #searchBar input {
 		width: 100%;
 	}
@@ -200,16 +249,39 @@
 		background-color: pink;
 		box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   		border-radius: 15px;
+		flex-direction: column;
 	}
 
-	.middle-content a {
-		text-decoration: none;
-		display: block;
-		transition: 0.2s;
-		color: gray;
-		border-radius: 12px;
-		margin: 5px;
-		padding: 10px;
+	.middle-content .btm-sec .review-card p{
+		color: red;
+	}
+
+	.middle-content .btm-sec .review-card .rating .star-rating span{
+		color: white;
+	}
+
+	.middle-content .btm-sec .review-card .rating .meter-rating {
+		flex-direction: column;
+	}
+
+	.middle-content .btm-sec .review-card .rating .meter-rating div {
+		margin: 0px;
+		padding: 0px;
+	}
+
+	.middle-content .btm-sec .review-card .rating .meter-rating div p {
+		margin-top: 0px;
+		margin-bottom: 0px;
+		margin-right: 2px;
+		color: red;
+	}
+
+	.middle-content .btm-sec .review-card .rating .meter-rating div .meter {
+		width: 100px;
+		height: 4px;
+		border: 2px solid red;
+		border-radius: 15px;
+		margin: 2px;
 	}
 
 	.right-content {
