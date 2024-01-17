@@ -20,6 +20,11 @@
 			<a href="/invoices">Invoices &rsaquo;</a>
 			<a href="/reviews">Post Reviews &rsaquo;</a>
 			<a href="/contacts">Contacts &rsaquo;</a>
+
+			<div class="acc">
+				<img class="acc-img" src="/src/lib/img/avatar.jpg" alt="avatar">
+				<p class="acc-name">John Smith</p>
+			</div>
 		</div>
 
 		<div class="middle-content">
@@ -56,12 +61,15 @@
 				<div class="review-card">
 					<p>Overall Review</p>
 					<div class="rating">
-						<div class="star-rating">
-							<span class="fa fa-star"></span>
-							<span class="fa fa-star"></span>
-							<span class="fa fa-star"></span>
-							<span class="fa fa-star"></span>
-							<span class="fa fa-star"></span>
+						<div class="left-rating">
+							<p class="num-rating">0.0</p>
+							<div class="star-rating">
+								<span class="fa fa-star"></span>
+								<span class="fa fa-star"></span>
+								<span class="fa fa-star"></span>
+								<span class="fa fa-star"></span>
+								<span class="fa fa-star"></span>
+							</div>
 						</div>
 						<div class="meter-rating">
 							<div>
@@ -87,7 +95,7 @@
 						</div>
 					</div>
 					<div class="top-reviews">
-						
+						<p>Some dummy review texts here.</p>
 					</div>
 				</div>
 			</div>
@@ -161,6 +169,7 @@
 		position: fixed;
 		/* border-right: solid gray 1px; */
 		padding-right: 10px;
+		width: 15%;
 	}
 
 	.sideNav #createPost {
@@ -188,6 +197,22 @@
 
 	.sideNav a:hover {
 		color: red;
+	}
+
+	.sideNav .acc {
+		width: 100%;
+		height: 75vh;
+	}
+
+	.sideNav .acc .acc-img {
+		height: auto;
+		width: 15%;
+		float: left;
+	}
+
+	.sideNav .acc .acc-name {
+		color: black;
+		height: 100%;
 	}
 
 	.middle-content {
@@ -256,7 +281,18 @@
 		color: red;
 	}
 
-	.middle-content .btm-sec .review-card .rating .star-rating span{
+	.middle-content .btm-sec .review-card .rating .left-rating {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.middle-content .btm-sec .review-card .rating .left-rating .num-rating {
+		color: white;
+		font-size: large;
+		margin: 0;
+	}
+
+	.middle-content .btm-sec .review-card .rating .left-rating .star-rating span{
 		color: white;
 	}
 
@@ -282,6 +318,17 @@
 		border: 2px solid red;
 		border-radius: 15px;
 		margin: 2px;
+	}
+
+	.middle-content .btm-sec .review-card .top-reviews {
+		width: 90%;
+		background-color: red;
+		margin: 4px;
+		border-radius: 15px;
+	}
+
+	.middle-content .btm-sec .review-card .top-reviews p {
+		color: white;
 	}
 
 	.right-content {
