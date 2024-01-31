@@ -25,6 +25,11 @@
 				<img class="acc-img" src="/src/lib/img/avatar.jpg" alt="avatar">
 				<p class="acc-name">John Smith</p>
 			</div>
+
+			<div class="footer">
+				<p class="footer_title">SMAP</p>
+				<p class="footer_text">Placeholder</p>
+			</div>
 		</div>
 
 		<div class="middle-content">
@@ -201,7 +206,9 @@
 
 	.sideNav .acc {
 		width: 100%;
-		height: 75vh;
+		height: 15vh;
+		position: absolute;
+		bottom: 0;
 	}
 
 	.sideNav .acc .acc-img {
@@ -212,7 +219,18 @@
 
 	.sideNav .acc .acc-name {
 		color: black;
-		height: 100%;
+	}
+
+	.sideNav .footer {
+		width: 100%;
+		height: 10vh;
+		position: absolute;
+		bottom: 0;
+	}
+
+	.sideNav .footer p {
+		margin: 0;
+		margin-top: 1vh;
 	}
 
 	.middle-content {
