@@ -5,7 +5,10 @@
 </script>
 
 <!-- stylesheet for star ratings -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link
+	rel="stylesheet"
+	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+/>
 
 <body>
 	<div class="content">
@@ -22,7 +25,7 @@
 			<a href="/contacts">Contacts &rsaquo;</a>
 
 			<div class="acc">
-				<img class="acc-img" src="/src/lib/img/avatar.jpg" alt="avatar">
+				<img class="acc-img" src="/src/lib/img/avatar.jpg" alt="avatar" />
 				<p class="acc-name">John Smith</p>
 			</div>
 
@@ -46,22 +49,22 @@
 			<div class="cards">
 				<!-- add in href -->
 				<div class="sub-cards">
-					<div class="placeholder"></div>
+					<div class="placeholder" />
 					<a href="/">Schedule</a>
 				</div>
 				<div class="sub-cards">
-					<div class="placeholder"></div>
+					<div class="placeholder" />
 					<a href="/">Inventory</a>
 				</div>
 				<div class="sub-cards">
-					<div class="placeholder"></div>
+					<div class="placeholder" />
 					<a href="/">Analytics</a>
 				</div>
 			</div>
 			<div class="btm-sec">
 				<!-- left=image right=placeholder -->
 				<div>
-					<img class="placeholder-img" src="/src/lib/img/placeholder.jpg" alt="placeholder">
+					<img class="placeholder-img" src="/src/lib/img/placeholder.jpg" alt="placeholder" />
 				</div>
 				<div class="review-card">
 					<p>Overall Review</p>
@@ -69,33 +72,33 @@
 						<div class="left-rating">
 							<p class="num-rating">0.0</p>
 							<div class="star-rating">
-								<span class="fa fa-star"></span>
-								<span class="fa fa-star"></span>
-								<span class="fa fa-star"></span>
-								<span class="fa fa-star"></span>
-								<span class="fa fa-star"></span>
+								<span class="fa fa-star" />
+								<span class="fa fa-star" />
+								<span class="fa fa-star" />
+								<span class="fa fa-star" />
+								<span class="fa fa-star" />
 							</div>
 						</div>
 						<div class="meter-rating">
 							<div>
 								<p>5</p>
-								<div class="meter"></div>
+								<div class="meter" />
 							</div>
 							<div>
 								<p>4</p>
-								<div class="meter"></div>
+								<div class="meter" />
 							</div>
 							<div>
 								<p>3</p>
-								<div class="meter"></div>
+								<div class="meter" />
 							</div>
 							<div>
 								<p>2</p>
-								<div class="meter"></div>
+								<div class="meter" />
 							</div>
 							<div>
 								<p>1</p>
-								<div class="meter"></div>
+								<div class="meter" />
 							</div>
 						</div>
 					</div>
@@ -107,57 +110,67 @@
 		</div>
 
 		<div class="right-content">
-			<div class="month">
-				<ul>
-					<li class="prev">&lsaquo;</li>
-					<li class="next">&rsaquo;</li>
-					<li>August<br /><span style="font-size:18px">2023</span></li>
+			<div class="calendar">
+				<div class="month">
+					<ul>
+						<li class="prev">&lsaquo;</li>
+						<li class="next">&rsaquo;</li>
+						<li>August<br /><span style="font-size:18px">2023</span></li>
+					</ul>
+				</div>
+
+				<ul class="weekdays">
+					<li>Mo</li>
+					<li>Tu</li>
+					<li>We</li>
+					<li>Th</li>
+					<li>Fr</li>
+					<li>Sa</li>
+					<li>Su</li>
+				</ul>
+
+				<ul class="days">
+					<li>1</li>
+					<li>2</li>
+					<li>3</li>
+					<li>4</li>
+					<li>5</li>
+					<li>6</li>
+					<li>7</li>
+					<li>8</li>
+					<li>9</li>
+					<li>10</li>
+					<li>11</li>
+					<li>12</li>
+					<li>13</li>
+					<li>14</li>
+					<li>15</li>
+					<li>16</li>
+					<li>17</li>
+					<li>18</li>
+					<li>19</li>
+					<li>20</li>
+					<li>21</li>
+					<li>22</li>
+					<li>23</li>
+					<li>24</li>
+					<li>25</li>
+					<li>26</li>
+					<li>27</li>
+					<li>28</li>
+					<li>29</li>
+					<li>30</li>
+					<li>31</li>
 				</ul>
 			</div>
 
-			<ul class="weekdays">
-				<li>Mo</li>
-				<li>Tu</li>
-				<li>We</li>
-				<li>Th</li>
-				<li>Fr</li>
-				<li>Sa</li>
-				<li>Su</li>
-			</ul>
+			<div class="schedule">
+				<p class="scheulde-title">View Your Schedule</p>
 
-			<ul class="days">
-				<li>1</li>
-				<li>2</li>
-				<li>3</li>
-				<li>4</li>
-				<li>5</li>
-				<li>6</li>
-				<li>7</li>
-				<li>8</li>
-				<li>9</li>
-				<li>10</li>
-				<li>11</li>
-				<li>12</li>
-				<li>13</li>
-				<li>14</li>
-				<li>15</li>
-				<li>16</li>
-				<li>17</li>
-				<li>18</li>
-				<li>19</li>
-				<li>20</li>
-				<li>21</li>
-				<li>22</li>
-				<li>23</li>
-				<li>24</li>
-				<li>25</li>
-				<li>26</li>
-				<li>27</li>
-				<li>28</li>
-				<li>29</li>
-				<li>30</li>
-				<li>31</li>
-			</ul>
+				<div class="sub-schedule-1" />
+				<div class="sub-schedule-2" />
+				<div class="sub-schedule-3" />
+			</div>
 		</div>
 	</div>
 </body>
@@ -277,8 +290,8 @@
 		height: 400px;
 		background-color: pink;
 		margin: 3%;
-		box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  		border-radius: 15px; 
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+		border-radius: 15px;
 	}
 
 	.middle-content .btm-sec .placeholder-img {
@@ -290,12 +303,12 @@
 		width: 250px;
 		height: 250px;
 		background-color: pink;
-		box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  		border-radius: 15px;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+		border-radius: 15px;
 		flex-direction: column;
 	}
 
-	.middle-content .btm-sec .review-card p{
+	.middle-content .btm-sec .review-card p {
 		color: red;
 	}
 
@@ -310,7 +323,7 @@
 		margin: 0;
 	}
 
-	.middle-content .btm-sec .review-card .rating .left-rating .star-rating span{
+	.middle-content .btm-sec .review-card .rating .left-rating .star-rating span {
 		color: white;
 	}
 
@@ -349,15 +362,15 @@
 		color: white;
 	}
 
-	.right-content {
-		width: 25%;
-		height: 100%;
-		box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	.right-content .calendar {
+		width: 125%;
+		height: auto;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 		float: right;
 	}
 
 	/* Month header */
-	.right-content .month {
+	.right-content .calendar .month {
 		padding: 70px 0px;
 		width: 100%;
 		background: red;
@@ -365,12 +378,12 @@
 	}
 
 	/* Month list */
-	.right-content .month ul {
+	.right-content .calendar .month ul {
 		margin: 0;
 		padding: 0;
 	}
 
-	.right-content .month ul li {
+	.right-content .calendar .month ul li {
 		color: white;
 		font-size: 20px;
 		text-transform: uppercase;
@@ -378,25 +391,25 @@
 	}
 
 	/* Previous button inside month header */
-	.right-content .month .prev {
+	.right-content .calendar .month .prev {
 		float: left;
 		list-style-type: none;
 	}
 
 	/* Next button */
-	.right-content .month .next {
+	.right-content .calendar .month .next {
 		float: right;
 		list-style-type: none;
 	}
 
 	/* Weekdays (Mon-Sun) */
-	.right-content .weekdays {
+	.right-content .calendar .weekdays {
 		margin: 0;
 		padding: 10px 0;
 		background-color: #ddd;
 	}
 
-	.right-content .weekdays li {
+	.right-content .calendar .weekdays li {
 		display: inline-block;
 		width: 13.6%;
 		color: #666;
@@ -404,13 +417,13 @@
 	}
 
 	/* Days (1-31) */
-	.right-content .days {
+	.right-content .calendar .days {
 		padding: 10px 0;
 		background: #eee;
 		margin: 0;
 	}
 
-	.right-content .days li {
+	.right-content .calendar .days li {
 		list-style-type: none;
 		display: inline-block;
 		width: 13.6%;
