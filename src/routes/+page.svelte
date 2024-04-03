@@ -165,11 +165,11 @@
 			</div>
 
 			<div class="schedule">
-				<p class="scheulde-title">View Your Schedule</p>
+				<p class="schedule-title">View Your Schedule</p>
 
-				<div class="sub-schedule-1" />
-				<div class="sub-schedule-2" />
-				<div class="sub-schedule-3" />
+				<div class="sub-schedule">placeholder</div>
+				<div class="sub-schedule">placeholder</div>
+				<div class="sub-schedule">placeholder</div>
 			</div>
 		</div>
 	</div>
@@ -300,8 +300,8 @@
 	}
 
 	.middle-content .btm-sec .review-card {
-		width: 250px;
-		height: 250px;
+		width: 20vw;
+		height: auto;
 		background-color: pink;
 		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 		border-radius: 15px;
@@ -431,5 +431,24 @@
 		margin-bottom: 5px;
 		font-size: 12px;
 		color: #777;
+	}
+
+	.right-content .schedule {
+		margin: 1vh;
+	}
+
+	.right-content .schedule .schedule-title {
+		color: gray;
+		text-align: center;
+	}
+
+	.right-content .schedule .sub-schedule {
+		background-color: pink;
+		color: white;
+		width: 100%;
+		height: 10vh;
+		border-radius: 15px;
+		margin: 0.5vh;
+		text-align: center;
 	}
 </style>
